@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// added by me
+Route::resource('shares', 'ShareController');
