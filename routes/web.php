@@ -11,9 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// edited by me
+Route::get('/', 'ShareController@index');
 
 // added by me
 Route::resource('shares', 'ShareController');
