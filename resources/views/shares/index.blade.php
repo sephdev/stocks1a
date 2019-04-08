@@ -29,7 +29,7 @@
                         <td>{{$share->share_name}}</td>
                         <td>{{$share->share_price}}</td>
                         <td>{{$share->share_qty}}</td>
-                        <td><a href="{{ route('shares.edit',$sahre->id) }}" class="btn btn-primary"></a></td>
+                        <td><a href="{{ route('shares.edit',$share->id) }}" class="btn btn-primary">Edit</a></td>
 
                         <td>
                             <form action="{{ route('shares.destroy', $share->id) }}" method="post">
