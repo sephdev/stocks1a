@@ -23,7 +23,8 @@ class ShareController extends Controller
      */
     public function create()
     {
-        //
+        // added by me
+        return view('shares.create');
     }
 
     /**
