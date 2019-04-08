@@ -14,7 +14,10 @@ class ShareController extends Controller
      */
     public function index()
     {
-        //
+        // added by me
+        $shares = Share::all();
+
+        return view('shares.index', compact('shares'));
     }
 
     /**
